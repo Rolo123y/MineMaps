@@ -1,0 +1,429 @@
+body {
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+
+.div_Empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+::placeholder {
+    color: white;
+}
+
+:-webkit-input-placeholder {
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+.MineMaps_title {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    left: 0;
+}
+
+.MineMaps_title>span {
+    color: white;
+    margin-left: 110px;
+    font-size: xx-large;
+}
+
+.MineMaps_title>a {
+    color: white;
+    margin-left: 110px;
+    font-size: xx-large;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.MineMaps_title>a:hover {
+    transform: scale(1.05);
+    color: rgb(0, 238, 255);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: medium;
+    border-color: darkgrey;
+    height: 600px;
+}
+
+.logo {
+    fill: dodgerblue;
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.copyright>span {
+    color: gray;
+}
+
+
+/* CSS INDEX PAGE */
+
+.flex-MineMaps_Index {
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-MineMaps_Index div span {
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 1em !important;
+}
+
+.flex-MineMaps_Index div h1 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    padding-top: 30px;
+    font-size: 3em !important;
+}
+
+.flex-MineMaps_Index div a {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 1em !important;
+}
+
+.flex_Index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flex_Index>button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.flex_Index>input {
+    color: white;
+    background-color: dimgray;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.flex_Index>button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+
+/* END INDEX PAGE */
+
+
+/* CSS LOGIN PAGE */
+
+.flex-MineMaps_LogIn {
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-MineMaps_LogIn div span {
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 1em !important;
+}
+
+.flex-MineMaps_LogIn div h1 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    font-size: 3em !important;
+}
+
+.flex-MineMaps_LogIn div a {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 1em !important;
+}
+
+.flex_Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flex_Login>button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.flex_Login>input {
+    color: white;
+    background-color: dimgray;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    cursor: text;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.flex_Login>button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+.flex_Login>input:hover {
+    background-color: lightsteelblue;
+}
+
+
+/* END LOGIN PAGE */
+
+
+/* CSS SIGNUP PAGE */
+
+.flex-MineMaps_SignUp {
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-MineMaps_SignUp div span {
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+.flex-MineMaps_SignUp div h1 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em !important;
+}
+
+.flex-MineMaps_SignUp div a {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 1em !important;
+}
+
+.flex_Signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flex_Signup>button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    width: 350px;
+    height: 80px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.flex_Signup>div>input {
+    color: white;
+    background-color: dimgray;
+    cursor: text;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    transition: 0.3s;
+}
+
+.flex_Signup>input {
+    color: white;
+    background-color: dimgray;
+    cursor: text;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    transition: 0.3s;
+}
+
+.flex_Signup>button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+.flex_Signup>input:hover {
+    background-color: lightsteelblue;
+}
+
+.flex_Signup>div>input:hover {
+    background-color: lightsteelblue;
+}
+
+
+/* END SIGNUP PAGE */
+
+
+/* CSS USERPAGE */
+
+.flex-MineMaps_Userpage {
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-MineMaps_Userpage div span {
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    font-size: 3em;
+}
+
+.Userpage_Username {
+    color: rgb(0, 60, 119) !important;
+    margin-top: 3% !important;
+    font-size: 4em !important;
+}
+
+.flex-MineMaps_Userpage div h1 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 2em !important;
+}
+
+.flex_Userpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flex_Userpage>button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.flex_Userpage>button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+
+/* END LOGIN PAGE */
+
+
+/* CSS POSTINGS PAGE */
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* END POSTINGS PAGE */
