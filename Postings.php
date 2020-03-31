@@ -25,7 +25,7 @@ session_start();
             }
         </script>
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt-GNBXCZi9mtSY8BdHtwluaNg31HdlKg&callback=initMap" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
 
     </div>
 
