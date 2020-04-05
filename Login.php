@@ -29,7 +29,7 @@ include 'head.php';
             ?>
 
             <form class="flex_Login" action="includes/LogIn.php" method="POSt">
-                <input type="text" name="Username" placeholder="Username">
+                <input type="text" name="email" placeholder="email">
                 <input type="password" name="Password" placeholder="Password">
                 <button type="signin" name="submit" value="submit">Sign In</button>
             </form>

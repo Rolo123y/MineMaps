@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -24,6 +24,14 @@ body {
 
 ::-ms-input-placeholder {
     color: white;
+}
+
+.header {
+    margin-top: 0%;
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+    font-size: x-large;
 }
 
 .MineMaps_title {
@@ -423,6 +431,62 @@ body {
 #map {
     height: 100%;
     width: 100%;
+}
+
+.Postings_constraints_container {
+    display: flex;
+    left: 10%;
+    width: 35%;
+}
+
+.Constraints_form {
+    height: 100%;
+    width: 100%;
+    background-color: #F0FFFF;
+}
+
+.Constraints_form>div {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.Constraints_form>div>select {
+    width: 40%;
+    -webkit-appearance: none;
+    overflow: hidden;
+}
+
+.select2-container {
+    margin: 10px 10px 10px 10px !important;
+}
+
+.Company-Rating {
+    margin-right: 30px !important;
+}
+
+.Constraints_form>div>input {
+    width: 20%;
+    margin: 10px 10px 10px 10px;
+}
+
+.Constraints_form>div>button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.Constraints_form>div>button:hover {
+    background-color: blue;
+    transform: scale(1.05);
 }
 
 

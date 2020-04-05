@@ -1,3 +1,3 @@
 <div class="copyright">
-    <span>Copyright © MindMaps. All Rights Reserved.</span>
+    <span>Copyright © MineMaps. All Rights Reserved.</span>
 </div>

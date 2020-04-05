@@ -5,7 +5,7 @@ session_start();
 
 <body>
     <div class="MineMaps_title">
-        <a href="UserPage.php">Home</a>
+        <a href="Userpage.php">Home</a>
         <a href="includes/LogOut.php?logout">Logout</a>
     </div>
     <br>
@@ -16,7 +16,7 @@ session_start();
                 <span>Hello,</span>
                 <span class="Userpage_Username">
                     <?php
-                    echo $_SESSION['Username'] . "!";
+                    echo $_SESSION['FirstName'] . "!";
                     ?>
                 </span>
                 <h1>What would you like to do?</h1>

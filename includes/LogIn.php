@@ -22,8 +22,11 @@ function LogInCheck($email, $Password, $conn)
     if ($resulCheck > 0 && $resulCheck < 2) {
         while ($row = mysqli_fetch_array($result)) {
             $firstname = $row['FirstName'];
+            $studentID = $row['StudentID'];
         }
         $_SESSION['FirstName'] = strtoupper($firstname);
+        $_SESSION['StudentID'] = $studentID;
+
         header("Location: ../Userpage.php?Login=success?FirstName=" . $firstname);
     } else {
         header("Location: ../Login.php?Empty=email or password incorrect. Try again!");

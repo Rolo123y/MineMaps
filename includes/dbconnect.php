@@ -1,7 +1,7 @@
 <?php
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "loginSystem";
-
-$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpassword = '';
+$dbname = 'minemaps';
+$conn = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
+?>

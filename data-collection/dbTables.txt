@@ -1,0 +1,51 @@
+CREATE TABLE User (
+StudentID INT,
+FirstName varchar(100),
+LastName varchar(100),
+StudentPass varchar(100),
+StudentEmail varchar(100),
+Faculty varchar(100),
+PRIMARY KEY (StudentID)
+);
+
+CREATE TABLE Organization (
+OrgID INT NOT NULL AUTO_INCREMENT,
+OrgName Varchar(100),
+WTRating DECIMAL(5,2),
+PRIMARY KEY(OrgID)
+);
+
+CREATE TABLE Location (
+LocationID INT NOT NULL AUTO_INCREMENT,
+Longitude DECIMAL(8,4),
+Latitude DECIMAL(8,4),
+Address VARCHAR(100),
+City VARCHAR(50),
+ProvinceOrState VARCHAR(100),
+PostalCode VARCHAR(50),
+Region VARCHAR(100),
+Primary Key (LocationID)
+);
+
+CREATE TABLE Posting (
+JobID INT,
+JobTitle VARCHAR(71),
+Duration VARCHAR(7),
+AppsSubmitted INT,
+OpenPositions INT,
+DifficultyLevel VARCHAR(28),
+OrgID INT,
+LocationID INT,       
+Primary key(JobID,OrgID),
+FOREIGN KEY(OrgID) REFERENCES Organization (OrgID),
+FOREIGN KEY(LocationID) REFERENCES Location (LocationID)
+);
+
+CREATE TABLE Bookmarks (
+JobID INT,
+StudentID INT,
+ShortList TINYINT(1),
+PRIMARY KEY(JobID, StudentID),
+FOREIGN KEY(StudentID) REFERENCES USER (StudentID),
+FOREIGN KEY(JobID) REFERENCES Posting (JobID)
+);

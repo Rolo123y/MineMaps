@@ -21,8 +21,8 @@ include 'head.php';
 
                 <h1>Welcome!</h2>
             </div>
-            <form class="flex_Index" action="LogIn.php" method="GET">
-                <button type="LogIn" name="LogIn" value="LogIn">Log In</button>
+            <form class="flex_Index" action="Login.php" method="GET">
+                <button type="Login" name="Login" value="LogIn">Log In</button>
             </form>
             <form class="flex_Index" action="Signup.php" method="GET">
                 <button type="NewUser" name="NewUser" value="NewUser">New User</button>

@@ -22,7 +22,7 @@ function SignupCheck($firstname, $lastname, $email, $studentnumber, $password, $
     $studentnumber_ = mysqli_real_escape_string($conn, $studentnumber);
     $password_ = mysqli_real_escape_string($conn, $password);
 
-    $sql = "INSERT INTO users (user_first,user_last,user_email,user_uid,user_pwd)
+    $sql = "INSERT INTO User (FirstName,LastName,StudentEmail,StudentID,StudentPass)
         VALUES ('$firstname_','$lastname_','$email_','$studentnumber_','$password_');";
     $result = mysqli_query($conn, $sql);
     if ($result) {
